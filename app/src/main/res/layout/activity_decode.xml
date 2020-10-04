@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".DecodeActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Put babel text below_"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:padding="20dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/messageToDecode"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#20FFFFFF"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:textColor="@android:color/holo_green_light">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/unBabelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UnBabel"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_below="@+id/messageToDecode"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_selector">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/unBabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unBabelButton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_green_light"
+        android:textIsSelectable="true"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/abhishek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/buttonColor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp">
+
+    </TextView>
+
+</RelativeLayout>

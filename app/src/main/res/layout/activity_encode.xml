@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".EncodeActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Put your message below_"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20dp"
+        android:padding="20dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/messageToCode"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#20FFFFFF"
+        android:layout_below="@id/text"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:textColor="@android:color/holo_green_light"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/babelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Babel"
+        android:layout_below="@+id/messageToCode"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:background="@drawable/my_button_selector">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/babelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/babelButton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_green_light"
+        android:textIsSelectable="true"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/copyButton"
+        android:text="Copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_selector"
+        android:layout_below="@+id/babelText"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/shareButton"
+        android:text="Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_selector"
+        android:layout_below="@+id/babelText"
+        android:layout_toRightOf="@+id/copyButton"
+        >
+
+    </Button>
+
+    <TextView
+        android:id="@+id/abhishek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/buttonColor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp">
+
+    </TextView>
+
+</RelativeLayout>
