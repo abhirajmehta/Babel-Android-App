@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Babel</string>
+    <string name="hintText">Press Encode to generate encrypted text\nPress Decode to get decrypted text</string>
 </resources>

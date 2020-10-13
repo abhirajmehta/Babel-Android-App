@@ -24,6 +24,8 @@ public class EncodeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_encode);
 
+        setTitle("Encode");
+
         int unicode = 0x2764;
         TextView txt = (TextView) findViewById(R.id.abhishek);
         String emoji = getEmojiByUnicode(unicode);

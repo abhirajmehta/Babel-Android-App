@@ -15,6 +15,8 @@ public class DecodeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_decode);
 
+        setTitle("Decode");
+
         int unicode = 0x2764;
         TextView txt = (TextView) findViewById(R.id.abhishek);
         String emoji = getEmojiByUnicode(unicode);
